@@ -1,0 +1,19 @@
+{
+  "flows": [
+    {"channel": "Meta", "headline": "100 days. 45 workouts. One hell of a test.", "paywall_opens_on": "Monthly with 7 days for free, after Day 1 of 100 of INSANITY Unhinged at their level", "note": "the paywall says “Start INSANITY Unhinged free” over Today, Day 7, Day 8; today this ad links to bodi.com"},
+    {"channel": "Meta", "headline": "30 days to a stronger booty.", "paywall_opens_on": "Annual at $99.00 the first year ($8.25 a month), after the 30 Day Booty Boost laid out as 30 days", "note": "asks “How much time can you commit on workout days?”; today this ad links to bodi.com"},
+    {"channel": "Meta", "headline": "Your GLP-1 muscle plan.", "paywall_opens_on": "Annual at $99.00 the first year, after 10 Min GLP1 next to 2B Mindset and Portion Fix", "note": "proof first: 4.9★ from 299K ratings and “Felt stronger each day.” above the plans; today this ad links to shakeology.com"}
+  ],
+  "prices": {"yearly": "$99.00 the first year, then $179 every 12 months", "monthly": "$19.00", "trial": "7 days", "apple_monthly": "$35.00", "apple_yearly": "$179.00", "offer": "$89.00 for 3 months", "source": "their onboarding paywall (“Select your online offer:”) as recorded; US App Store listing, In-App Purchases"},
+  "today": {"text": "every install, whatever the ad, opens on “130+ fitness programs.”, answers three questions, creates an account, then meets “Select your online offer:” with four plans; the quiz results only appear on Home afterwards", "source": "audit_frames"},
+  "asks": ["What's your current fitness level?", "How much time can you commit on workout days?", "Where are you on your GLP-1 journey?"],
+  "paywall": {"headline": "Start INSANITY Unhinged free", "uses_answers": true},
+  "rebuild": "each Meta ad opens its own first launch: the ad’s program on the first screen, one question, that program before any price, a paywall that names it, the 3-month plan on close and the account asked for last",
+  "ideas": [
+    {"n": 1, "title": "Open on the program the ad sold", "screen": "Arrive", "outcome": "CR +5–10%"},
+    {"n": 2, "title": "Show their program before the price", "screen": "First win", "outcome": "CR +10–20%"},
+    {"n": 3, "title": "Name the program on the paywall", "screen": "Paywall", "outcome": "CR +15–20%"},
+    {"n": 4, "title": "Ask for the account after the plan", "screen": "Account", "outcome": "CR +5–10% · ARPU +10–17%"},
+    {"n": 5, "title": "Catch the ✕ with three months", "screen": "On close", "outcome": "ARPU +10–15%"}
+  ]
+}
